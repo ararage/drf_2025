@@ -32,3 +32,8 @@ Django Fake migration
 python manage.py migrate watchlist_app 0004_alter_reviews_options_remove_reviews_id_reviews_uuid --fake
 ```
 
+```
+Movies Fixtures
+
+python manage.py loaddata .\watchlist_app\fixtures\watchlists_200.json
+```
