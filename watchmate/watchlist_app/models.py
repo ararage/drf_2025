@@ -52,12 +52,8 @@ class StreamPlatform(AbstractUUIDAuditModel):
 class WatchList(AbstractUUIDAuditModel):
     title = models.CharField(max_length=50)
     storyline = models.CharField(max_length=200)
-    avg_rating = models.FloatField(
-        default=0
-    )
-    number_rating = models.IntegerField(
-        default=0
-    )
+    avg_rating = models.FloatField(default=0)
+    number_rating = models.IntegerField(default=0)
     platform = models.ForeignKey(
         StreamPlatform,
         on_delete=models.SET_NULL,
@@ -77,7 +73,7 @@ class Reviews(AbstractUUIDAuditModel):
         null=True,
         blank=True,
         related_name="reviews",
-        default=None
+        default=None,
     )
     rating = models.PositiveIntegerField(
         validators=[
@@ -95,4 +91,6 @@ class Reviews(AbstractUUIDAuditModel):
     )
 
     def __str__(self):
-        return str(self.rating) + " ⭐ " + self.watchlist.title if self.watchlist else ""
+        return (
+            str(self.rating) + " ⭐ " + self.watchlist.title if self.watchlist else ""
+        )

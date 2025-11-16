@@ -6,28 +6,28 @@ from user_app.api.serializers import SignUpSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
 
 
-@api_view(['POST'])
+@api_view(["POST"])
 def logout_view(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         request.user.auth_token.delete()
         return Response(status.HTTP_200_OK)
 
 
-@api_view(['POST'])
+@api_view(["POST"])
 def signup_view(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         serializer = SignUpSerializer(data=request.data)
         data = {}
         if serializer.is_valid():
             account = serializer.save()
-            data['username'] = account.username
-            data['email'] = account.email            
+            data["username"] = account.username
+            data["email"] = account.email
             # token = Token.objects.get(user=account).key
             # data['token'] = token
             refresh = RefreshToken.for_user(account)
-            data['token'] = {
-                'refresh': str(refresh),
-                'access': str(refresh.access_token),
+            data["token"] = {
+                "refresh": str(refresh),
+                "access": str(refresh.access_token),
             }
         else:
             data = serializer.errors

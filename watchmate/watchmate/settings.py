@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "rest_framework.authtoken",
-    "django_filters", # Only on Generic Views
+    "django_filters",  # Only on Generic Views
     "watchlist_app",
     "user_app",
 ]
@@ -128,27 +128,26 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.AllowAny",
     ],
-    'DEFAULT_AUTHENTICATION_CLASSES': [
+    "DEFAULT_AUTHENTICATION_CLASSES": [
         # 'rest_framework.authentication.TokenAuthentication'
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
     # 'DEFAULT_THROTTLE_CLASSES': [
     #     'rest_framework.throttling.AnonRateThrottle',
     #    'rest_framework.throttling.UserRateThrottle'
-    #],
-    'DEFAULT_THROTTLE_RATES': {
-        'anon': '2/day',
-        'user': '3/day',
-        'review-detail': '2/day'
+    # ],
+    "DEFAULT_THROTTLE_RATES": {
+        "anon": "2/day",
+        "user": "3/day",
+        "review-detail": "2/day",
     },
-    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 5
+    "DEFAULT_RENDERER_CLASSES": ("rest_framework.renderers.JSONRenderer",),
+    "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    "PAGE_SIZE": 5,
 }
 
-SIMPLE_JWT = {
-    'ROTATE_REFRESH_TOKENS': True
-}
+SIMPLE_JWT = {"ROTATE_REFRESH_TOKENS": True}
