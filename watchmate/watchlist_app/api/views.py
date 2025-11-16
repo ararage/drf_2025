@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404
-from rest_framework import status, generics, mixins, viewsets
+from rest_framework import status, generics, mixins, viewsets, filters
 from rest_framework.response import Response
 from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
@@ -17,6 +17,29 @@ from watchlist_app.api.serializers import (
     ReviewCreateSerializer,
 )
 from watchlist_app.throttling import ReviewCreateThrottle, ReviewListThrottle
+from django_filters.rest_framework import DjangoFilterBackend
+
+
+class ReviewsByUserList(generics.ListAPIView):
+    serializer_class = ReviewSerializer
+    # permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        queryset = Reviews.objects.filter()
+        # username = self.kwargs['username']
+        username = self.request.query_params.get('username', None)
+        if username:
+            queryset = queryset.filter(review_user__username=username)
+        return queryset
+
+
+class ReviewUserList(generics.ListAPIView):
+    serializer_class = ReviewSerializer
+    permission_classes = [IsAuthenticated]
+    # throttle_classes = [ReviewListThrottle, AnonRateThrottle]
+
+    def get_queryset(self):
+        return Reviews.objects.filter(review_user=self.request.user)
 
 
 class ReviewCreate(generics.CreateAPIView):
@@ -63,8 +86,9 @@ class ReviewList(generics.ListAPIView):
     serializer_class = ReviewSerializer
     permission_classes = [IsAuthenticatedOrReadOnly]
     throttle_classes = [ReviewListThrottle, AnonRateThrottle]
-    
-    
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['review_user__username', 'active']
+
     def get_queryset(self):
         pk = self.kwargs.get("pk")
         return Reviews.objects.filter(watchlist=pk)
@@ -144,6 +168,7 @@ class StreamPlatformModelViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = StreamPlatform.objects.filter(active=True)
     serializer_class = StreamPlatformSerializer
     permission_classes = [IsAdminOrReadOnly]
+
 
 class StreamPlatformViewSet(viewsets.ViewSet):
     def list(self, request):
@@ -236,6 +261,14 @@ class StreamPlatformDetailAPIView(APIView):
             return Response({"message": "Not found"}, status=status.HTTP_404_NOT_FOUND)
         platform.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+class WatchListGenericListAPIView(generics.ListAPIView):
+    queryset = WatchList.objects.all()
+    serializer_class = WatchListSerializer
+    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
+    search_fields = ['^title', 'platform__name']
+    ordering_fields = ['avg_rating']
 
 
 class WatchListAPIView(APIView):

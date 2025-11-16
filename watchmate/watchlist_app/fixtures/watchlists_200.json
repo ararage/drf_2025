@@ -1,0 +1,2402 @@
+[
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000001",
+    "fields": {
+      "title": "Watchlist Movie 1",
+      "storyline": "Auto-generated fixture storyline for movie 1.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118001",
+      "modified": "2025-11-15T22:21:58.118039"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000002",
+    "fields": {
+      "title": "Watchlist Movie 2",
+      "storyline": "Auto-generated fixture storyline for movie 2.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118052",
+      "modified": "2025-11-15T22:21:58.118057"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000003",
+    "fields": {
+      "title": "Watchlist Movie 3",
+      "storyline": "Auto-generated fixture storyline for movie 3.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118066",
+      "modified": "2025-11-15T22:21:58.118070"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000004",
+    "fields": {
+      "title": "Watchlist Movie 4",
+      "storyline": "Auto-generated fixture storyline for movie 4.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118084",
+      "modified": "2025-11-15T22:21:58.118089"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000005",
+    "fields": {
+      "title": "Watchlist Movie 5",
+      "storyline": "Auto-generated fixture storyline for movie 5.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118097",
+      "modified": "2025-11-15T22:21:58.118101"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000006",
+    "fields": {
+      "title": "Watchlist Movie 6",
+      "storyline": "Auto-generated fixture storyline for movie 6.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118109",
+      "modified": "2025-11-15T22:21:58.118113"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000007",
+    "fields": {
+      "title": "Watchlist Movie 7",
+      "storyline": "Auto-generated fixture storyline for movie 7.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118121",
+      "modified": "2025-11-15T22:21:58.118125"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000008",
+    "fields": {
+      "title": "Watchlist Movie 8",
+      "storyline": "Auto-generated fixture storyline for movie 8.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118135",
+      "modified": "2025-11-15T22:21:58.118139"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000009",
+    "fields": {
+      "title": "Watchlist Movie 9",
+      "storyline": "Auto-generated fixture storyline for movie 9.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118147",
+      "modified": "2025-11-15T22:21:58.118151"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000000a",
+    "fields": {
+      "title": "Watchlist Movie 10",
+      "storyline": "Auto-generated fixture storyline for movie 10.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118158",
+      "modified": "2025-11-15T22:21:58.118163"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000000b",
+    "fields": {
+      "title": "Watchlist Movie 11",
+      "storyline": "Auto-generated fixture storyline for movie 11.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118170",
+      "modified": "2025-11-15T22:21:58.118175"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000000c",
+    "fields": {
+      "title": "Watchlist Movie 12",
+      "storyline": "Auto-generated fixture storyline for movie 12.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118182",
+      "modified": "2025-11-15T22:21:58.118187"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000000d",
+    "fields": {
+      "title": "Watchlist Movie 13",
+      "storyline": "Auto-generated fixture storyline for movie 13.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118196",
+      "modified": "2025-11-15T22:21:58.118201"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000000e",
+    "fields": {
+      "title": "Watchlist Movie 14",
+      "storyline": "Auto-generated fixture storyline for movie 14.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118208",
+      "modified": "2025-11-15T22:21:58.118213"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000000f",
+    "fields": {
+      "title": "Watchlist Movie 15",
+      "storyline": "Auto-generated fixture storyline for movie 15.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118220",
+      "modified": "2025-11-15T22:21:58.118225"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000010",
+    "fields": {
+      "title": "Watchlist Movie 16",
+      "storyline": "Auto-generated fixture storyline for movie 16.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118232",
+      "modified": "2025-11-15T22:21:58.118237"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000011",
+    "fields": {
+      "title": "Watchlist Movie 17",
+      "storyline": "Auto-generated fixture storyline for movie 17.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118244",
+      "modified": "2025-11-15T22:21:58.118248"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000012",
+    "fields": {
+      "title": "Watchlist Movie 18",
+      "storyline": "Auto-generated fixture storyline for movie 18.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118256",
+      "modified": "2025-11-15T22:21:58.118261"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000013",
+    "fields": {
+      "title": "Watchlist Movie 19",
+      "storyline": "Auto-generated fixture storyline for movie 19.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118268",
+      "modified": "2025-11-15T22:21:58.118272"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000014",
+    "fields": {
+      "title": "Watchlist Movie 20",
+      "storyline": "Auto-generated fixture storyline for movie 20.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118279",
+      "modified": "2025-11-15T22:21:58.118284"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000015",
+    "fields": {
+      "title": "Watchlist Movie 21",
+      "storyline": "Auto-generated fixture storyline for movie 21.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118291",
+      "modified": "2025-11-15T22:21:58.118302"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000016",
+    "fields": {
+      "title": "Watchlist Movie 22",
+      "storyline": "Auto-generated fixture storyline for movie 22.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118310",
+      "modified": "2025-11-15T22:21:58.118315"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000017",
+    "fields": {
+      "title": "Watchlist Movie 23",
+      "storyline": "Auto-generated fixture storyline for movie 23.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118322",
+      "modified": "2025-11-15T22:21:58.118327"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000018",
+    "fields": {
+      "title": "Watchlist Movie 24",
+      "storyline": "Auto-generated fixture storyline for movie 24.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118336",
+      "modified": "2025-11-15T22:21:58.118341"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000019",
+    "fields": {
+      "title": "Watchlist Movie 25",
+      "storyline": "Auto-generated fixture storyline for movie 25.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118348",
+      "modified": "2025-11-15T22:21:58.118353"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000001a",
+    "fields": {
+      "title": "Watchlist Movie 26",
+      "storyline": "Auto-generated fixture storyline for movie 26.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118360",
+      "modified": "2025-11-15T22:21:58.118365"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000001b",
+    "fields": {
+      "title": "Watchlist Movie 27",
+      "storyline": "Auto-generated fixture storyline for movie 27.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118373",
+      "modified": "2025-11-15T22:21:58.118377"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000001c",
+    "fields": {
+      "title": "Watchlist Movie 28",
+      "storyline": "Auto-generated fixture storyline for movie 28.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118385",
+      "modified": "2025-11-15T22:21:58.118389"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000001d",
+    "fields": {
+      "title": "Watchlist Movie 29",
+      "storyline": "Auto-generated fixture storyline for movie 29.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118396",
+      "modified": "2025-11-15T22:21:58.118401"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000001e",
+    "fields": {
+      "title": "Watchlist Movie 30",
+      "storyline": "Auto-generated fixture storyline for movie 30.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118411",
+      "modified": "2025-11-15T22:21:58.118416"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000001f",
+    "fields": {
+      "title": "Watchlist Movie 31",
+      "storyline": "Auto-generated fixture storyline for movie 31.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118434",
+      "modified": "2025-11-15T22:21:58.118438"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000020",
+    "fields": {
+      "title": "Watchlist Movie 32",
+      "storyline": "Auto-generated fixture storyline for movie 32.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118446",
+      "modified": "2025-11-15T22:21:58.118451"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000021",
+    "fields": {
+      "title": "Watchlist Movie 33",
+      "storyline": "Auto-generated fixture storyline for movie 33.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118458",
+      "modified": "2025-11-15T22:21:58.118462"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000022",
+    "fields": {
+      "title": "Watchlist Movie 34",
+      "storyline": "Auto-generated fixture storyline for movie 34.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118470",
+      "modified": "2025-11-15T22:21:58.118474"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000023",
+    "fields": {
+      "title": "Watchlist Movie 35",
+      "storyline": "Auto-generated fixture storyline for movie 35.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118482",
+      "modified": "2025-11-15T22:21:58.118486"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000024",
+    "fields": {
+      "title": "Watchlist Movie 36",
+      "storyline": "Auto-generated fixture storyline for movie 36.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118494",
+      "modified": "2025-11-15T22:21:58.118498"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000025",
+    "fields": {
+      "title": "Watchlist Movie 37",
+      "storyline": "Auto-generated fixture storyline for movie 37.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118506",
+      "modified": "2025-11-15T22:21:58.118510"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000026",
+    "fields": {
+      "title": "Watchlist Movie 38",
+      "storyline": "Auto-generated fixture storyline for movie 38.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118519",
+      "modified": "2025-11-15T22:21:58.118525"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000027",
+    "fields": {
+      "title": "Watchlist Movie 39",
+      "storyline": "Auto-generated fixture storyline for movie 39.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118534",
+      "modified": "2025-11-15T22:21:58.118539"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000028",
+    "fields": {
+      "title": "Watchlist Movie 40",
+      "storyline": "Auto-generated fixture storyline for movie 40.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118546",
+      "modified": "2025-11-15T22:21:58.118551"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000029",
+    "fields": {
+      "title": "Watchlist Movie 41",
+      "storyline": "Auto-generated fixture storyline for movie 41.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118560",
+      "modified": "2025-11-15T22:21:58.118565"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000002a",
+    "fields": {
+      "title": "Watchlist Movie 42",
+      "storyline": "Auto-generated fixture storyline for movie 42.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118581",
+      "modified": "2025-11-15T22:21:58.118586"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000002b",
+    "fields": {
+      "title": "Watchlist Movie 43",
+      "storyline": "Auto-generated fixture storyline for movie 43.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118596",
+      "modified": "2025-11-15T22:21:58.118600"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000002c",
+    "fields": {
+      "title": "Watchlist Movie 44",
+      "storyline": "Auto-generated fixture storyline for movie 44.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118608",
+      "modified": "2025-11-15T22:21:58.118612"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000002d",
+    "fields": {
+      "title": "Watchlist Movie 45",
+      "storyline": "Auto-generated fixture storyline for movie 45.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118620",
+      "modified": "2025-11-15T22:21:58.118624"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000002e",
+    "fields": {
+      "title": "Watchlist Movie 46",
+      "storyline": "Auto-generated fixture storyline for movie 46.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118632",
+      "modified": "2025-11-15T22:21:58.118636"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000002f",
+    "fields": {
+      "title": "Watchlist Movie 47",
+      "storyline": "Auto-generated fixture storyline for movie 47.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118643",
+      "modified": "2025-11-15T22:21:58.118648"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000030",
+    "fields": {
+      "title": "Watchlist Movie 48",
+      "storyline": "Auto-generated fixture storyline for movie 48.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118655",
+      "modified": "2025-11-15T22:21:58.118659"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000031",
+    "fields": {
+      "title": "Watchlist Movie 49",
+      "storyline": "Auto-generated fixture storyline for movie 49.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118667",
+      "modified": "2025-11-15T22:21:58.118671"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000032",
+    "fields": {
+      "title": "Watchlist Movie 50",
+      "storyline": "Auto-generated fixture storyline for movie 50.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118678",
+      "modified": "2025-11-15T22:21:58.118683"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000033",
+    "fields": {
+      "title": "Watchlist Movie 51",
+      "storyline": "Auto-generated fixture storyline for movie 51.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118692",
+      "modified": "2025-11-15T22:21:58.118696"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000034",
+    "fields": {
+      "title": "Watchlist Movie 52",
+      "storyline": "Auto-generated fixture storyline for movie 52.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118704",
+      "modified": "2025-11-15T22:21:58.118708"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000035",
+    "fields": {
+      "title": "Watchlist Movie 53",
+      "storyline": "Auto-generated fixture storyline for movie 53.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118716",
+      "modified": "2025-11-15T22:21:58.118720"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000036",
+    "fields": {
+      "title": "Watchlist Movie 54",
+      "storyline": "Auto-generated fixture storyline for movie 54.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118728",
+      "modified": "2025-11-15T22:21:58.118732"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000037",
+    "fields": {
+      "title": "Watchlist Movie 55",
+      "storyline": "Auto-generated fixture storyline for movie 55.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118741",
+      "modified": "2025-11-15T22:21:58.118746"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000038",
+    "fields": {
+      "title": "Watchlist Movie 56",
+      "storyline": "Auto-generated fixture storyline for movie 56.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118755",
+      "modified": "2025-11-15T22:21:58.118760"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000039",
+    "fields": {
+      "title": "Watchlist Movie 57",
+      "storyline": "Auto-generated fixture storyline for movie 57.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118768",
+      "modified": "2025-11-15T22:21:58.118772"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000003a",
+    "fields": {
+      "title": "Watchlist Movie 58",
+      "storyline": "Auto-generated fixture storyline for movie 58.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118780",
+      "modified": "2025-11-15T22:21:58.118784"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000003b",
+    "fields": {
+      "title": "Watchlist Movie 59",
+      "storyline": "Auto-generated fixture storyline for movie 59.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118792",
+      "modified": "2025-11-15T22:21:58.118796"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000003c",
+    "fields": {
+      "title": "Watchlist Movie 60",
+      "storyline": "Auto-generated fixture storyline for movie 60.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118803",
+      "modified": "2025-11-15T22:21:58.118807"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000003d",
+    "fields": {
+      "title": "Watchlist Movie 61",
+      "storyline": "Auto-generated fixture storyline for movie 61.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118815",
+      "modified": "2025-11-15T22:21:58.118819"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000003e",
+    "fields": {
+      "title": "Watchlist Movie 62",
+      "storyline": "Auto-generated fixture storyline for movie 62.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118829",
+      "modified": "2025-11-15T22:21:58.118833"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000003f",
+    "fields": {
+      "title": "Watchlist Movie 63",
+      "storyline": "Auto-generated fixture storyline for movie 63.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118843",
+      "modified": "2025-11-15T22:21:58.118847"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000040",
+    "fields": {
+      "title": "Watchlist Movie 64",
+      "storyline": "Auto-generated fixture storyline for movie 64.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118855",
+      "modified": "2025-11-15T22:21:58.118859"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000041",
+    "fields": {
+      "title": "Watchlist Movie 65",
+      "storyline": "Auto-generated fixture storyline for movie 65.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118867",
+      "modified": "2025-11-15T22:21:58.118871"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000042",
+    "fields": {
+      "title": "Watchlist Movie 66",
+      "storyline": "Auto-generated fixture storyline for movie 66.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118879",
+      "modified": "2025-11-15T22:21:58.118884"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000043",
+    "fields": {
+      "title": "Watchlist Movie 67",
+      "storyline": "Auto-generated fixture storyline for movie 67.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118891",
+      "modified": "2025-11-15T22:21:58.118896"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000044",
+    "fields": {
+      "title": "Watchlist Movie 68",
+      "storyline": "Auto-generated fixture storyline for movie 68.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118903",
+      "modified": "2025-11-15T22:21:58.118908"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000045",
+    "fields": {
+      "title": "Watchlist Movie 69",
+      "storyline": "Auto-generated fixture storyline for movie 69.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118915",
+      "modified": "2025-11-15T22:21:58.118920"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000046",
+    "fields": {
+      "title": "Watchlist Movie 70",
+      "storyline": "Auto-generated fixture storyline for movie 70.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118936",
+      "modified": "2025-11-15T22:21:58.118941"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000047",
+    "fields": {
+      "title": "Watchlist Movie 71",
+      "storyline": "Auto-generated fixture storyline for movie 71.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118948",
+      "modified": "2025-11-15T22:21:58.118953"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000048",
+    "fields": {
+      "title": "Watchlist Movie 72",
+      "storyline": "Auto-generated fixture storyline for movie 72.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118963",
+      "modified": "2025-11-15T22:21:58.118968"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000049",
+    "fields": {
+      "title": "Watchlist Movie 73",
+      "storyline": "Auto-generated fixture storyline for movie 73.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118975",
+      "modified": "2025-11-15T22:21:58.118980"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000004a",
+    "fields": {
+      "title": "Watchlist Movie 74",
+      "storyline": "Auto-generated fixture storyline for movie 74.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118987",
+      "modified": "2025-11-15T22:21:58.118992"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000004b",
+    "fields": {
+      "title": "Watchlist Movie 75",
+      "storyline": "Auto-generated fixture storyline for movie 75.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118999",
+      "modified": "2025-11-15T22:21:58.119004"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000004c",
+    "fields": {
+      "title": "Watchlist Movie 76",
+      "storyline": "Auto-generated fixture storyline for movie 76.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119012",
+      "modified": "2025-11-15T22:21:58.119017"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000004d",
+    "fields": {
+      "title": "Watchlist Movie 77",
+      "storyline": "Auto-generated fixture storyline for movie 77.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119025",
+      "modified": "2025-11-15T22:21:58.119029"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000004e",
+    "fields": {
+      "title": "Watchlist Movie 78",
+      "storyline": "Auto-generated fixture storyline for movie 78.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119038",
+      "modified": "2025-11-15T22:21:58.119043"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000004f",
+    "fields": {
+      "title": "Watchlist Movie 79",
+      "storyline": "Auto-generated fixture storyline for movie 79.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119050",
+      "modified": "2025-11-15T22:21:58.119054"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000050",
+    "fields": {
+      "title": "Watchlist Movie 80",
+      "storyline": "Auto-generated fixture storyline for movie 80.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119062",
+      "modified": "2025-11-15T22:21:58.119066"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000051",
+    "fields": {
+      "title": "Watchlist Movie 81",
+      "storyline": "Auto-generated fixture storyline for movie 81.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119073",
+      "modified": "2025-11-15T22:21:58.119078"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000052",
+    "fields": {
+      "title": "Watchlist Movie 82",
+      "storyline": "Auto-generated fixture storyline for movie 82.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119087",
+      "modified": "2025-11-15T22:21:58.119092"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000053",
+    "fields": {
+      "title": "Watchlist Movie 83",
+      "storyline": "Auto-generated fixture storyline for movie 83.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119099",
+      "modified": "2025-11-15T22:21:58.119104"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000054",
+    "fields": {
+      "title": "Watchlist Movie 84",
+      "storyline": "Auto-generated fixture storyline for movie 84.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119111",
+      "modified": "2025-11-15T22:21:58.119116"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000055",
+    "fields": {
+      "title": "Watchlist Movie 85",
+      "storyline": "Auto-generated fixture storyline for movie 85.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119123",
+      "modified": "2025-11-15T22:21:58.119128"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000056",
+    "fields": {
+      "title": "Watchlist Movie 86",
+      "storyline": "Auto-generated fixture storyline for movie 86.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119135",
+      "modified": "2025-11-15T22:21:58.119140"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000057",
+    "fields": {
+      "title": "Watchlist Movie 87",
+      "storyline": "Auto-generated fixture storyline for movie 87.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119147",
+      "modified": "2025-11-15T22:21:58.119151"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000058",
+    "fields": {
+      "title": "Watchlist Movie 88",
+      "storyline": "Auto-generated fixture storyline for movie 88.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119159",
+      "modified": "2025-11-15T22:21:58.119163"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000059",
+    "fields": {
+      "title": "Watchlist Movie 89",
+      "storyline": "Auto-generated fixture storyline for movie 89.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119171",
+      "modified": "2025-11-15T22:21:58.119177"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000005a",
+    "fields": {
+      "title": "Watchlist Movie 90",
+      "storyline": "Auto-generated fixture storyline for movie 90.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119185",
+      "modified": "2025-11-15T22:21:58.119189"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000005b",
+    "fields": {
+      "title": "Watchlist Movie 91",
+      "storyline": "Auto-generated fixture storyline for movie 91.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119196",
+      "modified": "2025-11-15T22:21:58.119201"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000005c",
+    "fields": {
+      "title": "Watchlist Movie 92",
+      "storyline": "Auto-generated fixture storyline for movie 92.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119208",
+      "modified": "2025-11-15T22:21:58.119213"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000005d",
+    "fields": {
+      "title": "Watchlist Movie 93",
+      "storyline": "Auto-generated fixture storyline for movie 93.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119222",
+      "modified": "2025-11-15T22:21:58.119226"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000005e",
+    "fields": {
+      "title": "Watchlist Movie 94",
+      "storyline": "Auto-generated fixture storyline for movie 94.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119237",
+      "modified": "2025-11-15T22:21:58.119242"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000005f",
+    "fields": {
+      "title": "Watchlist Movie 95",
+      "storyline": "Auto-generated fixture storyline for movie 95.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119249",
+      "modified": "2025-11-15T22:21:58.119254"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000060",
+    "fields": {
+      "title": "Watchlist Movie 96",
+      "storyline": "Auto-generated fixture storyline for movie 96.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119261",
+      "modified": "2025-11-15T22:21:58.119266"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000061",
+    "fields": {
+      "title": "Watchlist Movie 97",
+      "storyline": "Auto-generated fixture storyline for movie 97.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119273",
+      "modified": "2025-11-15T22:21:58.119278"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000062",
+    "fields": {
+      "title": "Watchlist Movie 98",
+      "storyline": "Auto-generated fixture storyline for movie 98.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119287",
+      "modified": "2025-11-15T22:21:58.119292"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000063",
+    "fields": {
+      "title": "Watchlist Movie 99",
+      "storyline": "Auto-generated fixture storyline for movie 99.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119299",
+      "modified": "2025-11-15T22:21:58.119304"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000064",
+    "fields": {
+      "title": "Watchlist Movie 100",
+      "storyline": "Auto-generated fixture storyline for movie 100.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119311",
+      "modified": "2025-11-15T22:21:58.119315"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000065",
+    "fields": {
+      "title": "Watchlist Movie 101",
+      "storyline": "Auto-generated fixture storyline for movie 101.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119323",
+      "modified": "2025-11-15T22:21:58.119327"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000066",
+    "fields": {
+      "title": "Watchlist Movie 102",
+      "storyline": "Auto-generated fixture storyline for movie 102.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119337",
+      "modified": "2025-11-15T22:21:58.119341"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000067",
+    "fields": {
+      "title": "Watchlist Movie 103",
+      "storyline": "Auto-generated fixture storyline for movie 103.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119349",
+      "modified": "2025-11-15T22:21:58.119353"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000068",
+    "fields": {
+      "title": "Watchlist Movie 104",
+      "storyline": "Auto-generated fixture storyline for movie 104.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119361",
+      "modified": "2025-11-15T22:21:58.119365"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000069",
+    "fields": {
+      "title": "Watchlist Movie 105",
+      "storyline": "Auto-generated fixture storyline for movie 105.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119373",
+      "modified": "2025-11-15T22:21:58.119377"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000006a",
+    "fields": {
+      "title": "Watchlist Movie 106",
+      "storyline": "Auto-generated fixture storyline for movie 106.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119386",
+      "modified": "2025-11-15T22:21:58.119391"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000006b",
+    "fields": {
+      "title": "Watchlist Movie 107",
+      "storyline": "Auto-generated fixture storyline for movie 107.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119399",
+      "modified": "2025-11-15T22:21:58.119403"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000006c",
+    "fields": {
+      "title": "Watchlist Movie 108",
+      "storyline": "Auto-generated fixture storyline for movie 108.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119411",
+      "modified": "2025-11-15T22:21:58.119415"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000006d",
+    "fields": {
+      "title": "Watchlist Movie 109",
+      "storyline": "Auto-generated fixture storyline for movie 109.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119423",
+      "modified": "2025-11-15T22:21:58.119436"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000006e",
+    "fields": {
+      "title": "Watchlist Movie 110",
+      "storyline": "Auto-generated fixture storyline for movie 110.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119444",
+      "modified": "2025-11-15T22:21:58.119449"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000006f",
+    "fields": {
+      "title": "Watchlist Movie 111",
+      "storyline": "Auto-generated fixture storyline for movie 111.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119456",
+      "modified": "2025-11-15T22:21:58.119461"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000070",
+    "fields": {
+      "title": "Watchlist Movie 112",
+      "storyline": "Auto-generated fixture storyline for movie 112.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119468",
+      "modified": "2025-11-15T22:21:58.119473"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000071",
+    "fields": {
+      "title": "Watchlist Movie 113",
+      "storyline": "Auto-generated fixture storyline for movie 113.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119480",
+      "modified": "2025-11-15T22:21:58.119484"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000072",
+    "fields": {
+      "title": "Watchlist Movie 114",
+      "storyline": "Auto-generated fixture storyline for movie 114.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119492",
+      "modified": "2025-11-15T22:21:58.119496"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000073",
+    "fields": {
+      "title": "Watchlist Movie 115",
+      "storyline": "Auto-generated fixture storyline for movie 115.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119507",
+      "modified": "2025-11-15T22:21:58.119511"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000074",
+    "fields": {
+      "title": "Watchlist Movie 116",
+      "storyline": "Auto-generated fixture storyline for movie 116.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119519",
+      "modified": "2025-11-15T22:21:58.119524"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000075",
+    "fields": {
+      "title": "Watchlist Movie 117",
+      "storyline": "Auto-generated fixture storyline for movie 117.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119533",
+      "modified": "2025-11-15T22:21:58.119538"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000076",
+    "fields": {
+      "title": "Watchlist Movie 118",
+      "storyline": "Auto-generated fixture storyline for movie 118.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119546",
+      "modified": "2025-11-15T22:21:58.119558"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000077",
+    "fields": {
+      "title": "Watchlist Movie 119",
+      "storyline": "Auto-generated fixture storyline for movie 119.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119567",
+      "modified": "2025-11-15T22:21:58.119571"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000078",
+    "fields": {
+      "title": "Watchlist Movie 120",
+      "storyline": "Auto-generated fixture storyline for movie 120.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119585",
+      "modified": "2025-11-15T22:21:58.119589"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000079",
+    "fields": {
+      "title": "Watchlist Movie 121",
+      "storyline": "Auto-generated fixture storyline for movie 121.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119600",
+      "modified": "2025-11-15T22:21:58.119605"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000007a",
+    "fields": {
+      "title": "Watchlist Movie 122",
+      "storyline": "Auto-generated fixture storyline for movie 122.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119613",
+      "modified": "2025-11-15T22:21:58.119617"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000007b",
+    "fields": {
+      "title": "Watchlist Movie 123",
+      "storyline": "Auto-generated fixture storyline for movie 123.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119627",
+      "modified": "2025-11-15T22:21:58.119632"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000007c",
+    "fields": {
+      "title": "Watchlist Movie 124",
+      "storyline": "Auto-generated fixture storyline for movie 124.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119639",
+      "modified": "2025-11-15T22:21:58.119644"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000007d",
+    "fields": {
+      "title": "Watchlist Movie 125",
+      "storyline": "Auto-generated fixture storyline for movie 125.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119653",
+      "modified": "2025-11-15T22:21:58.119658"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000007e",
+    "fields": {
+      "title": "Watchlist Movie 126",
+      "storyline": "Auto-generated fixture storyline for movie 126.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119666",
+      "modified": "2025-11-15T22:21:58.119670"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000007f",
+    "fields": {
+      "title": "Watchlist Movie 127",
+      "storyline": "Auto-generated fixture storyline for movie 127.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119678",
+      "modified": "2025-11-15T22:21:58.119682"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000080",
+    "fields": {
+      "title": "Watchlist Movie 128",
+      "storyline": "Auto-generated fixture storyline for movie 128.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119691",
+      "modified": "2025-11-15T22:21:58.119695"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000081",
+    "fields": {
+      "title": "Watchlist Movie 129",
+      "storyline": "Auto-generated fixture storyline for movie 129.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119703",
+      "modified": "2025-11-15T22:21:58.119707"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000082",
+    "fields": {
+      "title": "Watchlist Movie 130",
+      "storyline": "Auto-generated fixture storyline for movie 130.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119716",
+      "modified": "2025-11-15T22:21:58.119720"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000083",
+    "fields": {
+      "title": "Watchlist Movie 131",
+      "storyline": "Auto-generated fixture storyline for movie 131.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119728",
+      "modified": "2025-11-15T22:21:58.119732"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000084",
+    "fields": {
+      "title": "Watchlist Movie 132",
+      "storyline": "Auto-generated fixture storyline for movie 132.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119740",
+      "modified": "2025-11-15T22:21:58.119745"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000085",
+    "fields": {
+      "title": "Watchlist Movie 133",
+      "storyline": "Auto-generated fixture storyline for movie 133.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119752",
+      "modified": "2025-11-15T22:21:58.119757"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000086",
+    "fields": {
+      "title": "Watchlist Movie 134",
+      "storyline": "Auto-generated fixture storyline for movie 134.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119765",
+      "modified": "2025-11-15T22:21:58.119769"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000087",
+    "fields": {
+      "title": "Watchlist Movie 135",
+      "storyline": "Auto-generated fixture storyline for movie 135.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119855",
+      "modified": "2025-11-15T22:21:58.119860"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000088",
+    "fields": {
+      "title": "Watchlist Movie 136",
+      "storyline": "Auto-generated fixture storyline for movie 136.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119870",
+      "modified": "2025-11-15T22:21:58.119875"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000089",
+    "fields": {
+      "title": "Watchlist Movie 137",
+      "storyline": "Auto-generated fixture storyline for movie 137.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119882",
+      "modified": "2025-11-15T22:21:58.119887"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000008a",
+    "fields": {
+      "title": "Watchlist Movie 138",
+      "storyline": "Auto-generated fixture storyline for movie 138.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119894",
+      "modified": "2025-11-15T22:21:58.119899"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000008b",
+    "fields": {
+      "title": "Watchlist Movie 139",
+      "storyline": "Auto-generated fixture storyline for movie 139.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119906",
+      "modified": "2025-11-15T22:21:58.119911"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000008c",
+    "fields": {
+      "title": "Watchlist Movie 140",
+      "storyline": "Auto-generated fixture storyline for movie 140.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119920",
+      "modified": "2025-11-15T22:21:58.119925"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000008d",
+    "fields": {
+      "title": "Watchlist Movie 141",
+      "storyline": "Auto-generated fixture storyline for movie 141.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119944",
+      "modified": "2025-11-15T22:21:58.119949"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000008e",
+    "fields": {
+      "title": "Watchlist Movie 142",
+      "storyline": "Auto-generated fixture storyline for movie 142.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119956",
+      "modified": "2025-11-15T22:21:58.119961"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000008f",
+    "fields": {
+      "title": "Watchlist Movie 143",
+      "storyline": "Auto-generated fixture storyline for movie 143.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119968",
+      "modified": "2025-11-15T22:21:58.119973"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000090",
+    "fields": {
+      "title": "Watchlist Movie 144",
+      "storyline": "Auto-generated fixture storyline for movie 144.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119980",
+      "modified": "2025-11-15T22:21:58.119984"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000091",
+    "fields": {
+      "title": "Watchlist Movie 145",
+      "storyline": "Auto-generated fixture storyline for movie 145.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.119993",
+      "modified": "2025-11-15T22:21:58.119999"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000092",
+    "fields": {
+      "title": "Watchlist Movie 146",
+      "storyline": "Auto-generated fixture storyline for movie 146.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120006",
+      "modified": "2025-11-15T22:21:58.120011"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000093",
+    "fields": {
+      "title": "Watchlist Movie 147",
+      "storyline": "Auto-generated fixture storyline for movie 147.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120018",
+      "modified": "2025-11-15T22:21:58.120022"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000094",
+    "fields": {
+      "title": "Watchlist Movie 148",
+      "storyline": "Auto-generated fixture storyline for movie 148.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120030",
+      "modified": "2025-11-15T22:21:58.120034"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000095",
+    "fields": {
+      "title": "Watchlist Movie 149",
+      "storyline": "Auto-generated fixture storyline for movie 149.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120042",
+      "modified": "2025-11-15T22:21:58.120046"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000096",
+    "fields": {
+      "title": "Watchlist Movie 150",
+      "storyline": "Auto-generated fixture storyline for movie 150.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120054",
+      "modified": "2025-11-15T22:21:58.120059"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000097",
+    "fields": {
+      "title": "Watchlist Movie 151",
+      "storyline": "Auto-generated fixture storyline for movie 151.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120067",
+      "modified": "2025-11-15T22:21:58.120071"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000098",
+    "fields": {
+      "title": "Watchlist Movie 152",
+      "storyline": "Auto-generated fixture storyline for movie 152.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120078",
+      "modified": "2025-11-15T22:21:58.120083"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-000000000099",
+    "fields": {
+      "title": "Watchlist Movie 153",
+      "storyline": "Auto-generated fixture storyline for movie 153.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120090",
+      "modified": "2025-11-15T22:21:58.120095"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000009a",
+    "fields": {
+      "title": "Watchlist Movie 154",
+      "storyline": "Auto-generated fixture storyline for movie 154.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120102",
+      "modified": "2025-11-15T22:21:58.120107"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000009b",
+    "fields": {
+      "title": "Watchlist Movie 155",
+      "storyline": "Auto-generated fixture storyline for movie 155.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120114",
+      "modified": "2025-11-15T22:21:58.120119"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000009c",
+    "fields": {
+      "title": "Watchlist Movie 156",
+      "storyline": "Auto-generated fixture storyline for movie 156.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120126",
+      "modified": "2025-11-15T22:21:58.120130"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000009d",
+    "fields": {
+      "title": "Watchlist Movie 157",
+      "storyline": "Auto-generated fixture storyline for movie 157.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120141",
+      "modified": "2025-11-15T22:21:58.120147"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000009e",
+    "fields": {
+      "title": "Watchlist Movie 158",
+      "storyline": "Auto-generated fixture storyline for movie 158.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120155",
+      "modified": "2025-11-15T22:21:58.120160"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-00000000009f",
+    "fields": {
+      "title": "Watchlist Movie 159",
+      "storyline": "Auto-generated fixture storyline for movie 159.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120167",
+      "modified": "2025-11-15T22:21:58.120172"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a0",
+    "fields": {
+      "title": "Watchlist Movie 160",
+      "storyline": "Auto-generated fixture storyline for movie 160.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120181",
+      "modified": "2025-11-15T22:21:58.120185"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a1",
+    "fields": {
+      "title": "Watchlist Movie 161",
+      "storyline": "Auto-generated fixture storyline for movie 161.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120193",
+      "modified": "2025-11-15T22:21:58.120197"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a2",
+    "fields": {
+      "title": "Watchlist Movie 162",
+      "storyline": "Auto-generated fixture storyline for movie 162.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120205",
+      "modified": "2025-11-15T22:21:58.120209"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a3",
+    "fields": {
+      "title": "Watchlist Movie 163",
+      "storyline": "Auto-generated fixture storyline for movie 163.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120217",
+      "modified": "2025-11-15T22:21:58.120221"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a4",
+    "fields": {
+      "title": "Watchlist Movie 164",
+      "storyline": "Auto-generated fixture storyline for movie 164.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120228",
+      "modified": "2025-11-15T22:21:58.120233"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a5",
+    "fields": {
+      "title": "Watchlist Movie 165",
+      "storyline": "Auto-generated fixture storyline for movie 165.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120240",
+      "modified": "2025-11-15T22:21:58.120245"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a6",
+    "fields": {
+      "title": "Watchlist Movie 166",
+      "storyline": "Auto-generated fixture storyline for movie 166.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120252",
+      "modified": "2025-11-15T22:21:58.120256"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a7",
+    "fields": {
+      "title": "Watchlist Movie 167",
+      "storyline": "Auto-generated fixture storyline for movie 167.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120264",
+      "modified": "2025-11-15T22:21:58.120268"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a8",
+    "fields": {
+      "title": "Watchlist Movie 168",
+      "storyline": "Auto-generated fixture storyline for movie 168.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120276",
+      "modified": "2025-11-15T22:21:58.120280"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000a9",
+    "fields": {
+      "title": "Watchlist Movie 169",
+      "storyline": "Auto-generated fixture storyline for movie 169.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120287",
+      "modified": "2025-11-15T22:21:58.120292"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000aa",
+    "fields": {
+      "title": "Watchlist Movie 170",
+      "storyline": "Auto-generated fixture storyline for movie 170.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120299",
+      "modified": "2025-11-15T22:21:58.120303"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000ab",
+    "fields": {
+      "title": "Watchlist Movie 171",
+      "storyline": "Auto-generated fixture storyline for movie 171.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120311",
+      "modified": "2025-11-15T22:21:58.120316"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000ac",
+    "fields": {
+      "title": "Watchlist Movie 172",
+      "storyline": "Auto-generated fixture storyline for movie 172.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120323",
+      "modified": "2025-11-15T22:21:58.120328"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000ad",
+    "fields": {
+      "title": "Watchlist Movie 173",
+      "storyline": "Auto-generated fixture storyline for movie 173.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120335",
+      "modified": "2025-11-15T22:21:58.120340"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000ae",
+    "fields": {
+      "title": "Watchlist Movie 174",
+      "storyline": "Auto-generated fixture storyline for movie 174.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120350",
+      "modified": "2025-11-15T22:21:58.120355"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000af",
+    "fields": {
+      "title": "Watchlist Movie 175",
+      "storyline": "Auto-generated fixture storyline for movie 175.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120363",
+      "modified": "2025-11-15T22:21:58.120367"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b0",
+    "fields": {
+      "title": "Watchlist Movie 176",
+      "storyline": "Auto-generated fixture storyline for movie 176.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120374",
+      "modified": "2025-11-15T22:21:58.120379"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b1",
+    "fields": {
+      "title": "Watchlist Movie 177",
+      "storyline": "Auto-generated fixture storyline for movie 177.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120386",
+      "modified": "2025-11-15T22:21:58.120391"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b2",
+    "fields": {
+      "title": "Watchlist Movie 178",
+      "storyline": "Auto-generated fixture storyline for movie 178.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120398",
+      "modified": "2025-11-15T22:21:58.120402"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b3",
+    "fields": {
+      "title": "Watchlist Movie 179",
+      "storyline": "Auto-generated fixture storyline for movie 179.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120412",
+      "modified": "2025-11-15T22:21:58.120417"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b4",
+    "fields": {
+      "title": "Watchlist Movie 180",
+      "storyline": "Auto-generated fixture storyline for movie 180.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120426",
+      "modified": "2025-11-15T22:21:58.120439"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b5",
+    "fields": {
+      "title": "Watchlist Movie 181",
+      "storyline": "Auto-generated fixture storyline for movie 181.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120447",
+      "modified": "2025-11-15T22:21:58.120451"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b6",
+    "fields": {
+      "title": "Watchlist Movie 182",
+      "storyline": "Auto-generated fixture storyline for movie 182.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120459",
+      "modified": "2025-11-15T22:21:58.120463"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b7",
+    "fields": {
+      "title": "Watchlist Movie 183",
+      "storyline": "Auto-generated fixture storyline for movie 183.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120472",
+      "modified": "2025-11-15T22:21:58.120477"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b8",
+    "fields": {
+      "title": "Watchlist Movie 184",
+      "storyline": "Auto-generated fixture storyline for movie 184.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120485",
+      "modified": "2025-11-15T22:21:58.120490"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000b9",
+    "fields": {
+      "title": "Watchlist Movie 185",
+      "storyline": "Auto-generated fixture storyline for movie 185.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120498",
+      "modified": "2025-11-15T22:21:58.120503"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000ba",
+    "fields": {
+      "title": "Watchlist Movie 186",
+      "storyline": "Auto-generated fixture storyline for movie 186.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120512",
+      "modified": "2025-11-15T22:21:58.120517"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000bb",
+    "fields": {
+      "title": "Watchlist Movie 187",
+      "storyline": "Auto-generated fixture storyline for movie 187.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120530",
+      "modified": "2025-11-15T22:21:58.120534"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000bc",
+    "fields": {
+      "title": "Watchlist Movie 188",
+      "storyline": "Auto-generated fixture storyline for movie 188.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120542",
+      "modified": "2025-11-15T22:21:58.120546"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000bd",
+    "fields": {
+      "title": "Watchlist Movie 189",
+      "storyline": "Auto-generated fixture storyline for movie 189.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120556",
+      "modified": "2025-11-15T22:21:58.120560"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000be",
+    "fields": {
+      "title": "Watchlist Movie 190",
+      "storyline": "Auto-generated fixture storyline for movie 190.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120568",
+      "modified": "2025-11-15T22:21:58.120572"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000bf",
+    "fields": {
+      "title": "Watchlist Movie 191",
+      "storyline": "Auto-generated fixture storyline for movie 191.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120581",
+      "modified": "2025-11-15T22:21:58.120586"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c0",
+    "fields": {
+      "title": "Watchlist Movie 192",
+      "storyline": "Auto-generated fixture storyline for movie 192.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120593",
+      "modified": "2025-11-15T22:21:58.120598"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c1",
+    "fields": {
+      "title": "Watchlist Movie 193",
+      "storyline": "Auto-generated fixture storyline for movie 193.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120605",
+      "modified": "2025-11-15T22:21:58.120610"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c2",
+    "fields": {
+      "title": "Watchlist Movie 194",
+      "storyline": "Auto-generated fixture storyline for movie 194.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120617",
+      "modified": "2025-11-15T22:21:58.120621"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c3",
+    "fields": {
+      "title": "Watchlist Movie 195",
+      "storyline": "Auto-generated fixture storyline for movie 195.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120629",
+      "modified": "2025-11-15T22:21:58.120633"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c4",
+    "fields": {
+      "title": "Watchlist Movie 196",
+      "storyline": "Auto-generated fixture storyline for movie 196.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120641",
+      "modified": "2025-11-15T22:21:58.120645"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c5",
+    "fields": {
+      "title": "Watchlist Movie 197",
+      "storyline": "Auto-generated fixture storyline for movie 197.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120653",
+      "modified": "2025-11-15T22:21:58.120657"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c6",
+    "fields": {
+      "title": "Watchlist Movie 198",
+      "storyline": "Auto-generated fixture storyline for movie 198.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120664",
+      "modified": "2025-11-15T22:21:58.120669"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c7",
+    "fields": {
+      "title": "Watchlist Movie 199",
+      "storyline": "Auto-generated fixture storyline for movie 199.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120678",
+      "modified": "2025-11-15T22:21:58.120683"
+    }
+  },
+  {
+    "model": "watchlist_app.watchlist",
+    "pk": "00000000-0000-0000-0000-0000000000c8",
+    "fields": {
+      "title": "Watchlist Movie 200",
+      "storyline": "Auto-generated fixture storyline for movie 200.",
+      "platform": "8b4da7bce9184cc3b6c911ce4ec63c83",
+      "active": true,
+      "created": "2025-11-15T22:21:58.120692",
+      "modified": "2025-11-15T22:21:58.120697"
+    }
+  }
+]

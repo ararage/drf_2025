@@ -11,7 +11,10 @@ from watchlist_app.api.views import (
     ReviewDetail,
     ReviewCreate,
     StreamPlatformViewSet,
-    StreamPlatformModelViewSet
+    StreamPlatformModelViewSet,
+    ReviewUserList,
+    ReviewsByUserList,
+    WatchListGenericListAPIView
 )
 
 router = DefaultRouter()
@@ -25,6 +28,7 @@ urlpatterns = [
     # path('list/', movie_list, name='movie-list'),
     # path('<int:pk>/', movie_detail, name='movie-detail'),
     path("list/", WatchListAPIView.as_view(), name="movie-list"),
+    path("list2/", WatchListGenericListAPIView.as_view(), name="movie-list-2"),
     re_path(
         r"(?P<pk>[0-9a-f-]+)/$",
         WatchListDetailAPIView.as_view(),
@@ -49,5 +53,11 @@ urlpatterns = [
         r"review/(?P<pk>[0-9a-f-]+)/$",
         ReviewDetail.as_view(),
         name="review-detail",
+    ),
+    path(
+        "my_reviews/", ReviewUserList.as_view(), name="user-review-list"
+    ),
+    path(
+        "reviews/", ReviewsByUserList.as_view(), name="user-review-list"
     ),
 ]
