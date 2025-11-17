@@ -211,3 +211,7 @@ class ReviewTestCase(APITestCase):
         )
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
         self.assertEqual(models.Reviews.objects.count(), 0)
+
+    def test_review_user(self):
+        response = self.client.get(f"/watch/reviews/?username={self.user.username}")
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
