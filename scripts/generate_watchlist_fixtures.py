@@ -6,6 +6,7 @@ This script creates 200 fixtures at:
 Run with the workspace Python interpreter. Example:
 "C:/Users/Ricardo Perez/drf_2025/env/Scripts/python.exe" scripts/generate_watchlist_fixtures.py
 """
+
 import json
 import os
 from datetime import datetime
@@ -15,6 +16,7 @@ OUT_DIR = os.path.join(ROOT, "watchmate", "watchlist_app", "fixtures")
 OUT_FILE = os.path.join(OUT_DIR, "watchlists_200.json")
 
 os.makedirs(OUT_DIR, exist_ok=True)
+
 
 records = []
 NUM = 200
@@ -37,7 +39,7 @@ for i in range(1, NUM + 1):
             "active": True,
             "created": datetime.now().isoformat(),
             "modified": datetime.now().isoformat(),
-        }
+        },
     }
     records.append(record)
 

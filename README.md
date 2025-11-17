@@ -1,4 +1,154 @@
-# Windows
+# Django 5.2.8 and DRF 3.16.1 Practice Project(November 2025)
+
+## Requirements
+
+* https://www.docker.com/
+* https://code.visualstudio.com/
+
+&nbsp;
+
+# Getting Started
+
+For your first time please run the next commands, if some new changes comes after a git pull please ask to the backend developer for the new changes available.
+
+
+# Docker Network
+## List all Docker networks
+```
+$ docker network ls
+```
+
+# Look for a line with NAME: watchmatenetwork
+## Create a bridge network named watchmatenetwork
+
+```
+$ docker network create watchmatenetwork
+```
+
+# Basic Docker Compose commands
+
+```
+$ docker compose -f .\local.yml ps
+$ docker compose -f .\local.yml up
+$ docker compose -f .\local.yml build
+$ docker compose -f .\local.yml down
+```
+
+# No Cache (If you have issues)
+```
+$ docker compose -f .\local.yml build --no-cache --progress=plain
+```
+
+# First Time Create DB
+```
+docker run --name drf_local_postgres `
+  --env-file .\.envs\.local\.postgres `
+  -p 5433:5432 `
+  -v local_postgres_data:/var/lib/postgresql/data `
+  --network watchmatenetwork `
+  postgres:13.7
+```
+
+# Explore the container
+```
+$ docker ps
+$ docker exec -it <container_id> bash
+```
+
+
+### Load Data Fixtures
+```
+$ docker compose -f .\local.yml run --rm django sh -c '/env/bin/python3 ./watchmate/manage.py migrate && /env/bin/python3 ./watchmate/manage.py loaddata watchmate/fixtures/*'
+```
+
+### This will create the tables
+```
+$ docker compose -f local.yml run --rm django python3 manage.py migrate
+```
+
+### Show volumes:
+
+```
+$ docker volume ls
+```
+
+### If you want to delete a Volume you have to down your compose configuration with docker-compose down, after that this should works:
+
+```
+$ docker volume rm <volumen>
+```
+
+### Or maybe you want to delete a docker image :
+
+```
+$ docker rm -f <image_name>
+```
+
+&nbsp;
+
+
+### This will create the tables
+```
+$ docker-compose -f local.yml run --rm django python3 manage.py migrate
+```
+### Load the fixtures
+Read the file fixtures.sh
+
+### Create a local super user, please type the email & password for the super user
+```
+$ docker-compose -f local.yml run --rm django python3 manage.py createsuperuser
+```
+
+### Optional: If you want to create new migrations from models modifications or new models you can run the next command
+```
+$ docker-compose -f local.yml run --rm django python3 manage.py makemigrations users
+```
+&nbsp;
+
+# Django Magic Stuff
+
+### Django Extensions - Shell Plus usage
+
+```
+$ docker-compose -f local.yml run --rm django python3 manage.py shell_plus
+```
+
+### Individual images (For ipdb debugging)
+
+```
+$ docker-compose -f local.yml run --rm --service-ports django
+```
+
+&nbsp;
+
+
+# PostgreSQL Connect
+
+```
+$ docker ps
+$ docker exec -it <container_id> bash
+$ su - postgres
+$ psql postgresql://Aj1R2ksASRSRERJ0vv1ot4WmLlddU9f2:l2eDhe8cGnQtdmDi30alhcb5Go9YzV9csSHyTGN5tJ6CmXjN7doLl3wvmLOh7X22@postgres:5432/agovest
+-- In PSQL Terminal show databases
+psql=# \db
+-- Use pg_global by id
+psql=# use <database_id>
+psql=#\dt
+```
+
+
+# Delete Volumes
+```
+$ docker system prune --volumes
+```
+
+# Delete all images
+```
+$ docker rmi $(docker images -a -q)
+```
+
+
+# Windows Local Run
 
 Activate Env
 ```
@@ -54,4 +204,28 @@ python manage.py test watchlist_app.tests.ReviewTestCase
 Run individual test
 
 python manage.py test watchlist_app.tests.WatchListTestCase.test_watchlist_create
+```
+
+
+# VSCode Debug File - launch.json
+
+```
+{
+    "configurations": [
+        {
+            "name": "Containers: Python - Django",
+            "type": "python",
+            "request": "attach",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}/watchmate",
+                    "remoteRoot": "/app/watchmate"
+                }
+            ],
+            "port": 3000,
+            "host": "127.0.0.1"
+            
+        }
+    ]
+}
 ```

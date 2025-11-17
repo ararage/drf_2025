@@ -1,0 +1,12 @@
+-r ./base.txt
+
+# Debugging
+ipdb==0.13.13
+
+# Tools
+django-extensions==4.1
+
+# Testing
+
+# VScode Debugging
+ptvsd==4.3.2

@@ -9,3 +9,7 @@ venv/
 *.db
 .ruff_cache/
 .vscode/
+.ipython/
+.env
+.envs/*
+!.envs/.example/

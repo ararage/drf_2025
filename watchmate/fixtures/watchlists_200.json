@@ -1,5 +1,17 @@
 [
   {
+    "model": "watchlist_app.StreamPlatform",
+    "pk": "8b4da7bce9184cc3b6c911ce4ec63c83",
+    "fields": {
+      "name": "Auto platform",
+      "about": "Auto-generated fixture platform.",
+      "website": "https://www.autoplatform.com",
+      "active": true,
+      "created": "2025-11-15T22:21:58.118001",
+      "modified": "2025-11-15T22:21:58.118039"
+    }
+  },
+  {
     "model": "watchlist_app.watchlist",
     "pk": "00000000-0000-0000-0000-000000000001",
     "fields": {

@@ -1,0 +1,67 @@
+FROM alpine:3.12
+
+ENV PYTHONUNBUFFERED 1
+
+RUN \
+  apk update && \
+  apk -U upgrade && \
+  apk add --virtual build-dependencies \
+    # to reach GitHub's https
+    openssl ca-certificates \
+    build-base cmake musl-dev linux-headers \
+  #Python
+  && apk add python3 \
+  # psycopg2 dependencies
+  && apk add --virtual build-deps gcc python3-dev musl-dev \
+  && apk add postgresql-dev \
+  # Pillow dependencies
+  && apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev \
+  # CFFI dependencies
+  && apk add libffi-dev py-cffi \
+  # Translations dependencies
+  && apk add gettext \
+  # Cryptography
+  && apk add --no-cache openssl-dev \
+  && apk add gcc cargo \
+  && apk add rust \
+  # https://docs.djangoproject.com/en/dev/ref/django-admin/#dbshell
+  && apk add postgresql-client \
+  && apk add g++ \
+  && apk add make
+
+RUN apk add --update --no-cache curl py-pip
+RUN apk add py3-gunicorn
+
+RUN apk add py3-gunicorn
+
+RUN addgroup -S django \
+  && adduser -S -G django django
+
+# Requirements are installed here to ensure they will be cached.
+COPY ./requirements /requirements
+RUN pip3 install --upgrade pip
+RUN pip3 install -r /requirements/production.txt \
+  && rm -rf /requirements
+
+COPY ./compose/develop/django/entrypoint /entrypoint
+RUN sed -i 's/\r//' /entrypoint
+RUN chmod +x /entrypoint
+RUN chown django /entrypoint
+
+COPY ./compose/develop/django/start /start
+RUN sed -i 's/\r//' /start
+RUN chmod +x /start
+RUN chown django /start
+
+COPY . /app
+
+RUN chown -R django /app
+
+USER django
+
+COPY ./agovest-notifications-firebase.json /app/agovest-notifications-firebase.json
+COPY ./pc-api-8091588441965832613-73-4d2fbc3de218.json /app/pc-api-8091588441965832613-73-4d2fbc3de218.json
+
+WORKDIR /app
+
+ENTRYPOINT ["/entrypoint"]
