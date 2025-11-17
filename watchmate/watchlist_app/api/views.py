@@ -2,7 +2,11 @@ from django.shortcuts import get_object_or_404
 from rest_framework import status, generics, mixins, viewsets, filters
 from rest_framework.response import Response
 from rest_framework.exceptions import ValidationError
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.permissions import (
+    IsAuthenticated,
+    IsAuthenticatedOrReadOnly,
+    AllowAny,
+)
 from rest_framework.throttling import (
     UserRateThrottle,
     AnonRateThrottle,
@@ -53,7 +57,7 @@ class ReviewUserList(generics.ListAPIView):
 
 class ReviewCreate(generics.CreateAPIView):
     serializer_class = ReviewCreateSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [AllowAny]
     throttle_classes = [ReviewCreateThrottle]
 
     def perform_create(self, serializer):
@@ -73,7 +77,7 @@ class ReviewCreate(generics.CreateAPIView):
             )
 
         if review_user and review_queryset.exists():
-            raise ValidationError("You have already reviewd this movie!")
+            raise ValidationError("You have already reviewed this movie!")
 
         if watchlist.number_rating == 0:
             watchlist.avg_rating = serializer.validated_data["rating"]
