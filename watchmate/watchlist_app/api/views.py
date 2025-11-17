@@ -173,13 +173,15 @@ class ReviewList(
 """
 
 
-class StreamPlatformModelViewSet(viewsets.ReadOnlyModelViewSet):
+class StreamPlatformModelViewSet(viewsets.ModelViewSet):
     queryset = StreamPlatform.objects.filter(active=True)
     serializer_class = StreamPlatformSerializer
     permission_classes = [IsAdminOrReadOnly]
+    throttle_classes = [AnonRateThrottle]
 
 
 class StreamPlatformViewSet(viewsets.ViewSet):
+
     def list(self, request):
         queryset = StreamPlatform.objects.filter(active=True)
         serializer = StreamPlatformSerializer(queryset, many=True)
@@ -196,7 +198,7 @@ class StreamPlatformViewSet(viewsets.ViewSet):
         if not serializer.is_valid():
             return Response(serializer.errors)
         serializer.save()
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     def destroy(self, request, pk):
         try:
@@ -313,7 +315,7 @@ class WatchListAPIView(APIView):
         if not serializer.is_valid():
             return Response(serializer.errors)
         serializer.save()
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 class WatchListDetailAPIView(APIView):
