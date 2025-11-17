@@ -37,3 +37,21 @@ Movies Fixtures
 
 python manage.py loaddata .\watchlist_app\fixtures\watchlists_200.json
 ```
+
+```
+Run all tests
+
+python manage.py test
+```
+
+```
+Only a bunch of tests grouped by TestCase
+
+python manage.py test watchlist_app.tests.ReviewTestCase
+```
+
+```
+Run individual test
+
+python manage.py test watchlist_app.tests.WatchListTestCase.test_watchlist_create
+```
