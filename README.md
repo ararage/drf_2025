@@ -34,6 +34,10 @@ $ docker compose -f .\local.yml build
 $ docker compose -f .\local.yml down
 ```
 
+```
+$ docker compose -f .\test.yml up
+```
+
 # No Cache (If you have issues)
 ```
 $ docker compose -f .\local.yml build --no-cache --progress=plain
@@ -128,7 +132,7 @@ $ docker-compose -f local.yml run --rm --service-ports django
 $ docker ps
 $ docker exec -it <container_id> bash
 $ su - postgres
-$ psql postgresql://Aj1R2ksASRSRERJ0vv1ot4WmLlddU9f2:l2eDhe8cGnQtdmDi30alhcb5Go9YzV9csSHyTGN5tJ6CmXjN7doLl3wvmLOh7X22@postgres:5432/agovest
+$ psql postgresql://username:password@postgres:5432/watchmate_db
 -- In PSQL Terminal show databases
 psql=# \db
 -- Use pg_global by id
@@ -136,8 +140,22 @@ psql=# use <database_id>
 psql=#\dt
 ```
 
+# Stop containers
+```
+$ docker stop $(docker ps -a -q)
+```
 
-# Delete Volumes
+# Delete all containers
+```
+$ docker rm $(docker ps -a -q)
+```
+
+OR
+```
+$ docker container prune -f
+```
+
+# Delete all Volumes
 ```
 $ docker system prune --volumes
 ```
@@ -146,6 +164,7 @@ $ docker system prune --volumes
 ```
 $ docker rmi $(docker images -a -q)
 ```
+
 
 
 # Windows Local Run

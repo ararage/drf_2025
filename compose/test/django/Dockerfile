@@ -41,14 +41,14 @@ RUN python3 -m venv /env && \
     pip install --upgrade pip &&\
     pip install -r /requirements/local.txt
 
-COPY ./compose/local/django/entrypoint /entrypoint
+COPY ./compose/test/django/entrypoint /entrypoint
 RUN sed -i 's/\r//' /entrypoint
 RUN chmod +x /entrypoint
 
-COPY ./compose/local/django/start /start
+COPY ./compose/test/django/start /start
 RUN sed -i 's/\r//' /start
 RUN chmod +x /start
 
 WORKDIR /app
 
-# ENTRYPOINT ["/entrypoint"]
+ENTRYPOINT ["/entrypoint"]

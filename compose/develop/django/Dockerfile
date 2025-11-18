@@ -57,9 +57,6 @@ RUN chown -R django /app
 
 USER django
 
-COPY ./agovest-notifications-firebase.json /app/agovest-notifications-firebase.json
-COPY ./pc-api-8091588441965832613-73-4d2fbc3de218.json /app/pc-api-8091588441965832613-73-4d2fbc3de218.json
-
 WORKDIR /app
 
 ENTRYPOINT ["/entrypoint"]

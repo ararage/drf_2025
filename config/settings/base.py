@@ -13,12 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import environ
 
-"""
-ROOT_DIR = (
-    environ.Path(__file__) - 3
-)  # watchmate/config/settings/base.py -> watchmate/../..
-APPS_DIR = ROOT_DIR.path("watchmate")
-"""
+
 ROOT_DIR = Path(__file__).resolve().parents[2]  # project root
 APPS_DIR = ROOT_DIR / "watchmate"
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

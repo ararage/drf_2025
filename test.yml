@@ -1,0 +1,38 @@
+volumes:
+  test_postgres_data: {}
+
+services:
+
+  django_test: &django_test
+    build:
+      context: .
+      dockerfile: ./compose/test/django/Dockerfile
+    image: drf_test_django
+    depends_on:
+      - postgres_test
+    volumes:
+      - .:/app
+    env_file:
+      - ./.envs/.test/.django
+      - ./.envs/.test/.postgres
+    networks:
+      - watchmatenetwork
+    command: /start
+
+  postgres_test:
+    build:
+      context: .
+      dockerfile: ./compose/test/postgres/Dockerfile
+    image: drf_test_postgres
+    volumes:
+      - test_postgres_data:/var/lib/postgresql/data
+    env_file:
+      - ./.envs/.test/.postgres
+    networks:
+      - watchmatenetwork
+    ports:
+      - "5434:5432"
+
+networks:
+    watchmatenetwork:
+      external: true
