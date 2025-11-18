@@ -1,2 +1,7 @@
 -r ./base.txt
 
+gunicorn==23.0.0
+gevent==25.9.1
+
+# Static files
+whitenoise==6.11.0

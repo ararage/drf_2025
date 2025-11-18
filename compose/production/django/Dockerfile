@@ -27,21 +27,21 @@ RUN \
   # https://docs.djangoproject.com/en/dev/ref/django-admin/#dbshell
   && apk add postgresql-client \
   && apk add g++ \
-  && apk add make
+  && apk add make \
+  && apk add py3-psycopg2
 
-RUN apk add --update --no-cache curl py-pip
-RUN apk add py3-gunicorn
+RUN apk add --update --no-cache postgresql-dev python3-dev gcc musl-dev
 
 RUN apk add py3-gunicorn
 
 RUN addgroup -S django \
   && adduser -S -G django django
 
-# Requirements are installed here to ensure they will be cached.
-COPY ./requirements /requirements
-RUN pip3 install --upgrade pip
-RUN pip3 install -r /requirements/production.txt \
-  && rm -rf /requirements
+# Virtualenv
+RUN python3 -m venv /env && \
+    . /env/bin/activate &&\
+    pip install --upgrade pip &&\
+    pip install -r /requirements/production.txt
 
 COPY ./compose/develop/django/entrypoint /entrypoint
 RUN sed -i 's/\r//' /entrypoint

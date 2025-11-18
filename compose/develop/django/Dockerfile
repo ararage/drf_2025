@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.22
 
 ENV PYTHONUNBUFFERED 1
 
@@ -10,12 +10,12 @@ RUN \
     openssl ca-certificates \
     build-base cmake musl-dev linux-headers \
   #Python
-  && apk add python3 \
+  && apk add python3 py3-pip \
   # psycopg2 dependencies
   && apk add --virtual build-deps gcc python3-dev musl-dev \
-  && apk add postgresql-dev \
+  # && apk add postgresql-dev \
   # Pillow dependencies
-  && apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev \
+  # && apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev \
   # CFFI dependencies
   && apk add libffi-dev py-cffi \
   # Translations dependencies
@@ -27,9 +27,11 @@ RUN \
   # https://docs.djangoproject.com/en/dev/ref/django-admin/#dbshell
   && apk add postgresql-client \
   && apk add g++ \
-  && apk add make
+  && apk add make \
+  && apk add py3-psycopg2
 
-RUN apk add --update --no-cache curl py-pip
+RUN apk add --update --no-cache postgresql-dev python3-dev gcc musl-dev
+
 RUN apk add py3-gunicorn
 
 RUN addgroup -S django \
@@ -37,9 +39,12 @@ RUN addgroup -S django \
 
 # Requirements are installed here to ensure they will be cached.
 COPY ./requirements /requirements
-RUN pip3 install --upgrade pip
-RUN pip3 install -r /requirements/production.txt \
-  && rm -rf /requirements
+
+# Virtualenv
+RUN python3 -m venv /env && \
+    . /env/bin/activate && \
+    pip install --upgrade pip &&\
+    pip install -r /requirements/production.txt
 
 COPY ./compose/develop/django/entrypoint /entrypoint
 RUN sed -i 's/\r//' /entrypoint

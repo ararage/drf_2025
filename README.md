@@ -26,7 +26,7 @@ $ docker network create watchmatenetwork
 ```
 
 # Basic Docker Compose commands
-
+## Local Env
 ```
 $ docker compose -f .\local.yml ps
 $ docker compose -f .\local.yml up
@@ -34,8 +34,20 @@ $ docker compose -f .\local.yml build
 $ docker compose -f .\local.yml down
 ```
 
+## Run Tests Env
 ```
+$ docker compose -f .\test.yml ps
 $ docker compose -f .\test.yml up
+$ docker compose -f .\test.yml build
+$ docker compose -f .\test.yml down
+```
+
+## Local Development Env
+```
+$ docker compose -f .\develop.yml ps
+$ docker compose -f .\develop.yml up
+$ docker compose -f .\develop.yml build
+$ docker compose -f .\develop.yml down
 ```
 
 # No Cache (If you have issues)
@@ -63,6 +75,8 @@ $ docker exec -it <container_id> bash
 ### Load Data Fixtures
 ```
 $ docker compose -f .\local.yml run --rm django sh -c '/env/bin/python3 ./watchmate/manage.py migrate && /env/bin/python3 ./watchmate/manage.py loaddata watchmate/fixtures/*'
+
+$ docker compose -f .\develop.yml run --rm django_develop sh -c '/env/bin/python3 ./watchmate/manage.py migrate && /env/bin/python3 ./watchmate/manage.py loaddata watchmate/fixtures/*'
 ```
 
 ### This will create the tables

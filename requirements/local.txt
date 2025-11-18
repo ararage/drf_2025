@@ -3,9 +3,6 @@
 # Debugging
 ipdb==0.13.13
 
-# Tools
-django-extensions==4.1
-
 # Testing
 
 # VScode Debugging

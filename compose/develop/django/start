@@ -4,6 +4,12 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+ # Activate virtualenv
+. /env/bin/activate
 
-python3 /app/manage.py collectstatic --noinput
-gunicorn config.wsgi --workers=3  --worker-connections=1000 --worker-class=gevent --timeout=10 --bind 0.0.0.0:5000 --chdir=/app
+# CAUTION: This should be manually exuecuted
+# Run migrations and start server
+python3 ./watchmate/manage.py migrate
+
+python3 ./watchmate/manage.py collectstatic --noinput
+gunicorn config.wsgi --workers=3  --worker-connections=1000 --worker-class=gevent --timeout=10 --bind 0.0.0.0:5000 --chdir=/app/watchmate

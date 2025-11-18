@@ -1,0 +1,60 @@
+volumes:
+  develop_postgres_data: {}
+  develop_postgres_data_backups: {}
+  develop_media_volume:
+  develop_static_volume:
+
+services:
+  nginx_develop:
+    build:
+      context: .
+      dockerfile: ./compose/develop/nginx/Dockerfile
+    image: drf_develop_django_nginx
+    restart: always
+    volumes:
+      - develop_static_volume:/app/mgi/static
+      - develop_media_volume:/app/media
+    depends_on:
+      - django_develop
+    networks:
+      - watchmatenetwork
+    ports:
+      - 81:80
+
+  django_develop: &django_develop
+    user: root
+    build:
+      context: .
+      dockerfile: ./compose/develop/django/Dockerfile
+    restart: always
+    image: drf_develop_django
+    depends_on:
+      - postgres_develop
+    env_file:
+      - ./.envs/.develop/.django
+      - ./.envs/.develop/.postgres
+    ports:
+      - "0.0.0.0:5000:5000"
+    networks:
+      - watchmatenetwork
+    command: /start
+
+# For Real Cloud Connections Delete the service below:
+  postgres_develop:
+    build:
+      context: .
+      dockerfile: ./compose/develop/postgres/Dockerfile
+    image: drf_develop_postgres
+    volumes:
+      - develop_postgres_data:/var/lib/postgresql/data
+      - develop_postgres_data_backups:/backups
+    env_file:
+      - ./.envs/.develop/.postgres
+    networks:
+      - watchmatenetwork
+    ports:
+      - "5435:5432"
+
+networks:
+    watchmatenetwork:
+      driver: bridge
